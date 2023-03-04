@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/v1.0/create_enum_types.sql
+  - include:
+      file: liquibase/v1.0/create_table_users.sql
+  - include:
+      file: liquibase/v1.0/fill_all_tables.sql
